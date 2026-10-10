@@ -1,0 +1,34 @@
+# Maven build output
+
+target/
+
+# IntelliJ IDEA
+
+.idea/
+*.iml
+out/
+
+# Java
+
+*.class
+
+# Logs
+
+*.log
+logs/
+
+# Environment variables and secrets
+
+.env
+.env.*
+!.env.example
+
+# Local configuration overrides
+
+application-local.properties
+application-local.yml
+
+# Operating system files
+
+.DS_Store
+Thumbs.db
